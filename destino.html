@@ -1,0 +1,243 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/destin.css">
+    <title> Inscreva-se </title>
+</head>
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <nav class="navbar col-12 navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid col-11 m-auto">
+      <a href="index.html"> 
+        <img src="img/nasa-2-logo.png" class="img-fluid" alt="Front-Enders Logo" width="100">
+      </a>
+      <a class="navbar-brand" href="index.html">NASA Airline</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="destino.html">Destino</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="produto.html">Promoções</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contato</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+
+  
+<!--Card-->
+  <section class="container-fluid d-flex align-items-center">
+    <div class="card shadow mb-5 mt-5 bg-white rounded">
+    
+      <!--Card-Body-->
+      <div class="card-body">
+    
+        <!--Card-Title-->
+        <p class="card-title text-center shadow mb-5 rounded">Reserva de Viagem</p>
+    
+     <div class="icons text-center">
+    
+    <i class="fa fa-plane fa-2x" aria-hidden="true"></i>
+    <i class="fa fa-taxi fa-2x" aria-hidden="true"></i>
+    <i class="fa fa-train fa-2x" aria-hidden="true"></i>
+    
+    
+     </div>
+    
+        <hr>
+    
+        <p class="searchText"><strong>Pesquisar Voos Baratos</strong></p>
+    
+        <!--First Row-->
+        <div class="row mb-3 mt-3">
+    
+          <label class="radiobtn"><input type="radio" name="gender" value="male">Mão Única</label>
+          <label class="radiobtn"><input type="radio" name="gender" value="male">Ida e volta</label>
+    
+        </div>
+    
+    
+        <!--Second Row-->
+        <div class="row">
+    
+          <div class="col-sm-6">
+            <select class="browser-default custom-select mb-4" id="select">
+            <option value="" disabled="" selected="">Da cidade/Airport</option>
+            <option value="1">New Delhi</option>
+            <option value="2">Mumbai</option>
+            <option value="3">Bangalore</option>
+        </select>
+          </div>
+    
+          <div class="col-sm-6">
+            <select class="browser-default custom-select mb-4" id="select">
+            <option value="" disabled="" selected="">Para City/Airport</option>
+           <option value="1">New Delhi</option>
+            <option value="2">Mumbai</option>
+            <option value="3">Bangalore</option>
+        </select>
+          </div>
+    
+        </div>
+    
+    
+        <!--Third Row-->
+        <div class="row">
+    
+          <div class="col-sm-6">
+            <input placeholder="&#xf073; Partindo" type="text" id="date-picker-example" class="form-control datepicker mb-4" style="font-family:Arial, FontAwesome" >
+          </div>
+    
+            <div class="col-sm-6">
+              <input placeholder="&#xf073; Chegando" type="text" id="date-picker-example" class="form-control datepicker" style="font-family:Arial, FontAwesome" >
+          </div>
+    
+            </div>
+    
+    
+            <!--Fourth Row-->
+            <div class="row mt-4">
+    
+              <div class="col-sm-6">
+                <select class="browser-default custom-select mb-4" id="select">
+                  <option value="" disabled="" selected="">Horários</option>
+                  <option value="1">6:00 AM</option>
+                  <option value="2">3:00 PM</option>
+                  <option value="3">6:00 PM</option>
+                </select>
+              </div>
+    
+              <div class="col-sm-6">
+                <select class="browser-default custom-select mb-4" id="select">
+                  <option value="" disabled="" selected="">Horários</option>
+                  <option value="1">6:00 AM</option>
+                  <option value="2">3:00 PM</option>
+                  <option value="3">6:00 PM</option>
+                </select>
+              </div>
+    
+            </div>
+    
+    
+    
+    
+            <!--Fifth Row-->
+            <div class="row">
+    
+              <div class="col-sm-4">
+                <select class="browser-default custom-select mb-4" id="select">
+            <option value="" disabled="" selected="">Crianças(0-14)</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+              </div>
+    
+              <div class="col-sm-4">
+                <select class="browser-default custom-select mb-4" id="select">
+            <option value="" disabled="" selected="">Adultos(15-64)</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+              </div>
+    
+              <div class="col-sm-4">
+                <select class="browser-default custom-select mb-4" id="select">
+            <option value="" disabled="" selected="">Senhores(65+)</option>
+       <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+              </div>
+    
+    
+    
+            </div>
+    
+            <a href="#" class="btn btn-primary float-right mt-5">Encontrar voos</a>
+          </div>
+        </div>
+    
+    
+                      </div>
+                    </div>
+                  </form>
+    
+    
+    
+          </div>
+    
+        </div>
+  </section>
+
+  <footer class="bd-footer mt-5 bg-light">
+    <div class="container">
+      <div class="row justify-content-evenly" id="footer-mb">
+        <div class="col-md-3 col-4 mb-5 text-center">
+          <h5>Quem somos</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="/">Home</a></li>
+            <li class="mb-2"><a href="#">Docs</a></li>
+            <li class="mb-2"><a href="#">Examples</a></li>
+            <li class="mb-2"><a href="#">Icons</a></li>
+            <li class="mb-2"><a href="#">Themes</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-3 mb-5 text-center">
+          <h5>Guias</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#">Getting started</a></li>
+            <li class="mb-2"><a href="#">Starter template</a></li>
+            <li class="mb-2"><a href="#">Webpack</a></li>
+            <li class="mb-2"><a href="#">Parcel</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-4 mb-5 text-center">
+          <h5>Projetos</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#">Bootstrap</a></li>
+            <li class="mb-2"><a href="#">Bootstrap</a></li>
+            <li class="mb-2"><a href="#">Icons</a></li>
+            <li class="mb-2"><a href="#">RFS</a></li>
+            <li class="mb-2"><a href="#">npm starter</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-8 mb-5"  style = "margin-top: -20px;">
+        <ul class="list-unstyled small text-muted">
+          <img src="./img/giphy.gif" class="img-fluid img" alt="">
+          <li class="mb-2 text-center">Designed and built with all the love in the world by the <a href="#">NASA Airline Team</a> with the help of <a href="#">our contributors</a>.</li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  
+    <footer id="footer-mb" class="p-3 d-flex align-items-center justify-content-around bg-primary">
+      <article>
+        © 2023 Copyright:
+        <a href="#">NASA Airline | Todos os direitos reservados.</a>
+      </article>
+      <figure>
+          <a href="#"><img src="./img/whatsapp.png" alt=""></a>
+          <a href="#"><img src="./img/linkedin.png" alt=""></a>
+          <a href="#"><img src="./img/instagram.png" alt=""></a>
+      </figure>
+    </footer>
+  </footer>
+  
+</body>
+</html>
